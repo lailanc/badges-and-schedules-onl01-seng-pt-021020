@@ -1,4 +1,3 @@
-
 def badge_maker(name)
   return "Hello, my name is #{name}."
 end
@@ -20,7 +19,7 @@ def assign_rooms(array)
   nuarray = []
   counter = 1
   array.each do |name|
-    nuarray.push("Hello, #{name}! You'll be assigned to room #{counter}!")
+    new.array.push("Hello, #{name}! You'll be assigned to room #{counter}!")
     counter += 1
   end
   return nuarray
@@ -36,4 +35,11 @@ def printer(array)
     puts id 
   end
 end 
+
+
+# Write your code here.
+
+def badge_maker(name)
+  return "Hello, my name is #{name}."
+end
 
